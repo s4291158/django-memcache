@@ -14,7 +14,7 @@ Django memory caching
 ```
     cd ~
     git clone https://github.com/kendricktan/django-memcache.git
-    cd django-memcache
+    cd django-memcache/memcache
     python manage.py makemigrations
     python manage.py migrate
     python manage.py runserver
