@@ -9,7 +9,13 @@ Django memory caching
     sudo pip install pylibmc python-memcached django
 ```
 
-2. Setting up project
+2. Setting up memcache server (default location is 127.0.0.1:11211)
+
+```
+    sudo service memcached start
+```
+
+3. Setting up project
 
 ```
     cd ~
@@ -20,7 +26,7 @@ Django memory caching
     python manage.py runserver
 ```
 
-3. Navigate to:
+4. Navigate to:
 ```
     127.0.0.1:8000 # add questions to database
     127.0.0.1:8000/db_cache # query database (cached) dump
