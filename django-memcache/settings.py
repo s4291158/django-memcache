@@ -58,7 +58,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'memcache.urls'
+ROOT_URLCONF = 'django-memcache.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'memcache.wsgi.application'
+WSGI_APPLICATION = 'django-memcache.wsgi.application'
 
 
 # Database
@@ -114,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Brisbane'
 
 USE_I18N = True
 
